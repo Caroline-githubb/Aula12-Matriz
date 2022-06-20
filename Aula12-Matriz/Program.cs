@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-
-            Matriz.ExibirMatriz();
+            Matriz matriz = new Matriz();
+            matriz.ExibirMatriz();
             
         }
     }
