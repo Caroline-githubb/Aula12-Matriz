@@ -16,14 +16,22 @@ namespace Aula12_Matriz
      };
         public void ExibirMatriz()
         {
+            string linha = "";
             for (int i = 0; i < _jogoDaVelha.GetLength(0); i++)
             {
+                Console.WriteLine(linha);
+                linha = "\n___________\n";
+                string separador = " ";
                 for (int j = 0; j < _jogoDaVelha.GetLength(1); j++)
                 {
-                    Console.Write(" | "+ _jogoDaVelha[i, j]);
+                    Console.Write(separador + _jogoDaVelha[i, j]);
+                    separador = " | ";
                 }
-                Console.WriteLine("\n_____________");
+                              
+                
             }
+
+           
         }
                 //Console.WriteLine($"{_jogoDaVelha[0, 0]} | {_jogoDaVelha[0, 1]} | {_jogoDaVelha[0, 2]}" + Environment.NewLine +
                 //$"----------" + Environment.NewLine +
