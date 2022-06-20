@@ -20,7 +20,7 @@ namespace Aula12_Matriz
             {
                 for (int j = 0; j < _jogoDaVelha.GetLength(1); j++)
                 {
-                    Console.Write(string.Format(" | " + _jogoDaVelha[i, j]));
+                    Console.Write(" | "+ _jogoDaVelha[i, j]);
                 }
                 Console.WriteLine("\n_____________");
             }
