@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula12-Matriz", "Aula12-Matriz\Aula12-Matriz.csproj", "{0C10E55E-5D72-42D8-9018-98DE46BF0A46}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaDeTarefas", "ListaDeTarefas\ListaDeTarefas.csproj", "{B9AB3FD0-D181-4147-93EC-405ACDD08960}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0C10E55E-5D72-42D8-9018-98DE46BF0A46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C10E55E-5D72-42D8-9018-98DE46BF0A46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C10E55E-5D72-42D8-9018-98DE46BF0A46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9AB3FD0-D181-4147-93EC-405ACDD08960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9AB3FD0-D181-4147-93EC-405ACDD08960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9AB3FD0-D181-4147-93EC-405ACDD08960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9AB3FD0-D181-4147-93EC-405ACDD08960}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
