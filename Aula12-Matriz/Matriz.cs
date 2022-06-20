@@ -8,20 +8,20 @@ namespace Aula12_Matriz
 {
     internal class Matriz
     {
-        private int[,] _jogoDaVelha = new int[,]
+        private static int[,] _jogoDaVelha = new int[,]
      {
             { 7, 8, 9 },
             { 4, 5, 6 },
             { 1, 2, 3 }
      };
-        public void ExibirMatriz()
+        public static void ExibirMatriz()
         {
 
-            Console.WriteLine($"{_jogoDaVelha[0,0]} | {_jogoDaVelha[0,1]} | {_jogoDaVelha[0,2]}" + Environment.NewLine +
+            Console.WriteLine($"{_jogoDaVelha[0, 0]} | {_jogoDaVelha[0, 1]} | {_jogoDaVelha[0, 2]}" + Environment.NewLine +
                 $"----------" + Environment.NewLine +
-                $"{_jogoDaVelha[1,0]} | {_jogoDaVelha[1,1]} | {_jogoDaVelha[1,2]}" + Environment.NewLine +
+                $"{_jogoDaVelha[1, 0]} | {_jogoDaVelha[1, 1]} | {_jogoDaVelha[1, 2]}" + Environment.NewLine +
                  $"----------" + Environment.NewLine +
-                $"{_jogoDaVelha[2,0]} | {_jogoDaVelha[2,1]} | {_jogoDaVelha[2,2]}" );
+                $"{_jogoDaVelha[2, 0]} | {_jogoDaVelha[2, 1]} | {_jogoDaVelha[2, 2]}");
             //for (int i = 0; i < 3; i++)
             //{
             //    for (int j = 0; j < 2; j++)
@@ -31,5 +31,5 @@ namespace Aula12_Matriz
             //    Console.WriteLine("\n");
             //}
         }
-    }   
+    }
 }
